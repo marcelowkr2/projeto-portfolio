@@ -63,7 +63,7 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(image/banner.png) no-repeat;
+    background: url(image/banner3.png) no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -94,7 +94,7 @@ html{
     background: #00804b;
     color: #fff;
     font-size: 25px;
-    padding: 12px 36px;
+    padding: 12px 36px:
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid #00804b;
