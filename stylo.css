@@ -94,7 +94,7 @@ html{
     background: #00804b;
     color: #fff;
     font-size: 25px;
-    padding: 12px 36px:
+    padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid #00804b;
@@ -615,4 +615,45 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+}
+.social-media {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* LinkedIn blue, só pra dar uma ideia */
+}
+
+.social-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.social-inputs input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
 }
